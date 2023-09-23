@@ -10,9 +10,19 @@ body{
     margin: 0;
     display: grid;
     place-content: center;
+    text-align: center;
 
     background-color: var(--background-color);
     color: var(--text-color);
+
+    transition: all ease 200ms ;
+}
+button{
+    color: var(--background-color);
+    background-color: var(--text-color);
+    border: none;
+    padding: .3em .5em;
+    border-radius: .2em;
 }
 
 .dark-mode{
